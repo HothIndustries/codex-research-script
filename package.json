@@ -1,0 +1,16 @@
+{
+  "name": "codex-research-script",
+  "version": "0.1.0",
+  "description": "A small npm CLI that runs the repository upload script.",
+  "license": "UNLICENSED",
+  "bin": {
+    "command-formatter": "bin/command-formatter.js"
+  },
+  "files": [
+    "bin",
+    "script.sh"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

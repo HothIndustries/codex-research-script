@@ -1,26 +1,24 @@
 # codex-research-script
 
-A small Python package that runs the repository's `script.sh` upload test.
+A small npm CLI that runs the repository's `script.sh` upload test.
 
-Install it for development:
+Run it directly from GitHub:
 
 ```sh
-python3 -m pip install -e .
+npx --yes git+https://github.com/HothIndustries/codex-research-script.git
 ```
 
-Run the existing script:
+Install it locally for development:
+
+```sh
+npm install
+npm link
+```
+
+Then run:
 
 ```sh
 command-formatter
-```
-
-The installed command uses a bundled copy of `script.sh`; the original
-`script.sh` remains in the repository.
-
-Or run it as a Python module:
-
-```sh
-python3 -m codex_research_script
 ```
 
 You can also provide another script path:
